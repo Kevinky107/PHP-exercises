@@ -1,5 +1,5 @@
 <?php 
-    $mysqli = new mysqli("localhost","root","kev121514","hotelmiranda");
+    $mysqli = mysqli_connect("localhost","root","kev121514","hotelmiranda");
     if (mysqli_connect_errno()) {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
         exit();

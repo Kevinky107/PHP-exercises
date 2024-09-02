@@ -1,4 +1,4 @@
-<? 
+<?php 
     $rooms = [
         ['ID' => 0, 'Name' => 'Suite', 'Number' => 107, 'Price' => 350, 'Discount' => 300],
         ['ID' => 1, 'Name' => 'Double Bed', 'Number' => 108, 'Price' => 250, 'Discount' => 220],
